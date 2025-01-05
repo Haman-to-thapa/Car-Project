@@ -1,6 +1,6 @@
 import React from 'react'
 import Search from './Search'
-import { Fullscreen } from 'lucide-react'
+
 
 const Hero = () => {
   return (

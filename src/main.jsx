@@ -6,15 +6,21 @@ import { ClerkProvider } from '@clerk/clerk-react'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router'
 import Home from './Home'
-import Contact from './Contact'
+import Profile from './Profile/Profile'
+import AddListing from './add-listing/AddListing'
 
 const router = createBrowserRouter([
  
-      {path:"home",
+      {path:"/",
         element:<Home/>
       },
-      {path:"contact",
-        element:<Contact/>
+      {
+        path:"/p",
+        element: <Profile/>
+      },
+      {
+        path:"/addListing",
+        element:<AddListing/>
       }
     
   

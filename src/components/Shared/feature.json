@@ -1,0 +1,129 @@
+{
+  "features": [
+    {
+      "label": "Touchscreen Display",
+      "name": "touchscreenDisplay",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Bluetooth Connectivity",
+      "name": "bluetoothConnectivity",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Sunroof",
+      "name": "sunroof",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Leather Seats",
+      "name": "leatherSeats",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Rearview Camera",
+      "name": "rearviewCamera",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Automatic Climate Control",
+      "name": "automaticClimateControl",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "GPS Navigation System",
+      "name": "gpsNavigationSystem",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Keyless Entry",
+      "name": "keylessEntry",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Cruise Control",
+      "name": "cruiseControl",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Heated Seats",
+      "name": "heatedSeats",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Parking Sensors",
+      "name": "parkingSensors",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Adaptive Headlights",
+      "name": "adaptiveHeadlights",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Fog Lights",
+      "name": "fogLights",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Anti-lock Braking System (ABS)",
+      "name": "antiLockBrakingSystem",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Traction Control",
+      "name": "tractionControl",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Lane Departure Warning",
+      "name": "laneDepartureWarning",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Blind Spot Monitoring",
+      "name": "blindSpotMonitoring",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Rear Air Conditioning Vents",
+      "name": "rearAirConditioningVents",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Hill Start Assist",
+      "name": "hillStartAssist",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Push Button Start",
+      "name": "pushButtonStart",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Wireless Phone Charging",
+      "name": "wirelessPhoneCharging",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Panoramic Sunroof",
+      "name": "panoramicSunroof",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Premium Sound System",
+      "name": "premiumSoundSystem",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Electric Tailgate",
+      "name": "electricTailgate",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Driver Seat Memory Function",
+      "name": "driverSeatMemoryFunction",
+      "fieldType": "checkbox"
+    }
+  ]
+}
