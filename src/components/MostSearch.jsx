@@ -22,8 +22,8 @@ const MostSearchCar = () => {
       <Carousel>
       <CarouselContent>
         {FakeData.carList.map((car, index) => (
-          <CarouselItem className="basis-1/4">
-            <CarItems car={car} key={index}/>
+          <CarouselItem key={index} className="basis-1/4">
+            <CarItems car={car}/>
           </CarouselItem>
         ))}
       

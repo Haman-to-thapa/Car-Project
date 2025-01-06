@@ -7,7 +7,10 @@ import { Separator } from '@radix-ui/react-select'
 import features from "./../components/Shared/feature.json"
 import { Checkbox } from '@/components/ui/checkbox'
 import { Button } from '@/components/ui/button'
-import TextArea from './component/TextAreaField'
+
+import { db } from './../../config'
+import { CarListing } from './../../config/schema'
+import TextAreaField from './component/TextAreaField'
 
 const AddListing = () => {
 
@@ -22,9 +25,22 @@ const AddListing = () => {
     console.log(formData)
   }
 
-  const onSubmit = (e) => {
+  const onSubmit = async(e) => {
     e.preventDefault()
-    console.log(formData)
+    console.log(formData);
+
+    try{
+    const result = await db.insert(CarListing).values(formData);
+      if(result) 
+        {
+        console.log("Data Saved")
+      }
+     } catch(e){
+        console.log("Error",e)
+      }
+    
+  
+  
   }
   return (
     <div>
@@ -49,7 +65,7 @@ const AddListing = () => {
               handleInputChange={handleInputChange}
               item={item}/> 
               :
-              item.fieldType == "textarea" ? <TextArea item={item} handleInputChange={handleInputChange}/>
+              item.fieldType == "textarea" ? <TextAreaField item={item} handleInputChange={handleInputChange}/>
               : 
               null}
             </div>
