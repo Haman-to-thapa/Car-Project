@@ -8,6 +8,8 @@ import { RouterProvider } from 'react-router'
 import Home from './Home'
 import Profile from './Profile/Profile'
 import AddListing from './add-listing/AddListing'
+import SearchByCategory from './search/[category]'
+import SearchByOptions from './search'
 
 const router = createBrowserRouter([
  
@@ -15,12 +17,20 @@ const router = createBrowserRouter([
         element:<Home/>
       },
       {
-        path:"/p",
-        element: <Profile/>
+        path:"/profile",
+        element: <Profile/> 
       },
       {
         path:"/addListing",
         element:<AddListing/>
+      },
+    {
+      path:"/search",
+      element : <SearchByOptions/>
+    },
+      {
+        path:'/search/:category',
+        element: <SearchByCategory/>
       }
     
   
